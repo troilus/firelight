@@ -166,10 +166,10 @@ bool EmulatorInstance::isRewindEnabled() const {
     return false;
   }
 
-  if (getAchievementManager()->loggedIn() &&
-      getAchievementManager()->hardcoreModeActive()) {
-    return false;
-  }
+  //if (getAchievementManager()->loggedIn() &&
+  //    getAchievementManager()->hardcoreModeActive()) {
+  //  return false;
+  //}
 
   return true;
 }

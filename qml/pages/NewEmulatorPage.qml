@@ -21,7 +21,7 @@ FocusScope {
                 return
             }
 
-            if (shortcut === 0 && !achievement_manager.inHardcoreMode) {
+            if (shortcut === 0) {
                 root.createRewindPoints()
             } else if (shortcut === 3) {
                 emulator.incrementPlaybackMultiplier()

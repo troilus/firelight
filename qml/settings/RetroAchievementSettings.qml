@@ -28,9 +28,6 @@ FocusScope {
 
                 ToggleOption {
                     id: hardcoreModeToggle
-                    Layout.fillWidth: true
-                    KeyNavigation.down: learnMoreButton
-                    enabled: !gameRunning
                     label: "Enable hardcore mode"
                     description: "Playing in hardcore mode disables Suspend Points, Rewind, and other similar features.\n\nLater you'll be able to change this on a per-game basis.\n\nYou can't change this while a game is running."
 
