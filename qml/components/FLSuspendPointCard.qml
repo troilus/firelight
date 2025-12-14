@@ -78,7 +78,7 @@ Button {
             Layout.maximumHeight: 42
             Layout.minimumHeight: 42
 
-            enabled: !achievement_manager.loggedIn || !achievement_manager.inHardcoreMode
+            enabled: !achievement_manager.loggedIn
 
             background: Rectangle {
                 id: bg
